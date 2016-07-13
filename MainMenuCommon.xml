@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: MainMenuCommon.xml 1575 2015-11-27 17:55:34Z kik $ -->
+
+<mainMenu>
+	<menuBar>
+		<subMenu id="kpipeline_menu">
+			<label>KPipeline</label>
+			<insertBefore>help_menu</insertBefore>
+
+			<scriptItem id="kpi_user_guide">
+				<label>User Guide</label>
+				<scriptCode><![CDATA[]]></scriptCode>
+			</scriptItem>
+
+			<separatorItem />
+            
+            <scriptItem id="kpi_about">
+                <label>About KPipeline</label>
+                <scriptCode><![CDATA[]]></scriptCode>
+            </scriptItem>
+		</subMenu>
+	</menuBar>
+</mainMenu>
