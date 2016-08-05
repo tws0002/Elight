@@ -3,19 +3,19 @@
 
 <mainMenu>
 	<menuBar>
-		<subMenu id="kpipeline_menu">
-			<label>KPipeline</label>
+		<subMenu id="elight_menu">
+			<label>ELight</label>
 			<insertBefore>help_menu</insertBefore>
 
-			<scriptItem id="kpi_user_guide">
+			<scriptItem id="elight_user_guide">
 				<label>User Guide</label>
 				<scriptCode><![CDATA[]]></scriptCode>
 			</scriptItem>
 
 			<separatorItem />
             
-            <scriptItem id="kpi_about">
-                <label>About KPipeline</label>
+            <scriptItem id="elight_about">
+                <label>About Elight</label>
                 <scriptCode><![CDATA[]]></scriptCode>
             </scriptItem>
 		</subMenu>
