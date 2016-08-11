@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shelfDocument>
+  <!-- This file contains definitions of shelves, toolbars, and tools.
+ It should not be hand-edited when it is being used by the application.
+ Note, that two definitions of the same element are not allowed in
+ a single file. -->
+
+  <toolshelf name="elight_main" label="Elight">
+    <memberTool name="set_cache_path"/>
+  </toolshelf>
+
+  <tool name="set_cache_path" label="Cache Path" icon="SOP_file">
+    <script scriptType="python"><![CDATA[select_dir = hou.ui.selectFile(file_type = hou.fileType.Directory)
+if select_dir:
+    cache_dir = select_dir[:-1]
+    hou.hscript("set -g CACHE = %s" % cache_dir)]]></script>
+  </tool>
+</shelfDocument>
